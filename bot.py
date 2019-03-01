@@ -64,15 +64,10 @@ def main():
     dp.add_handler(CommandHandler("start", greet_user))
     dp.add_handler(CommandHandler("planet", planets))
 
-    
+
     dp.add_handler(MessageHandler(Filters.text, constellation))
     dp.add_handler(MessageHandler(Filters.text, talk_to_me))
 
-
-    
-    
-
-    
 
     mybot.start_polling()
     mybot.idle()
