@@ -1,7 +1,7 @@
 *.log
 settings.py
 env/
+downloads/
 __pycache__/
 .vscode/
 desktop.ini
-downloads/
