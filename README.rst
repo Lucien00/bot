@@ -8,7 +8,7 @@ CatBot - Telegram-бот, присылающий фото котиков.
 
 Создайте виртуальное окружение и активируйте его. Потом в виртуальном окружении выполните:
 
-..code-block:: text
+.. code-block:: text
 
     pip install -r requirements.txt
 
